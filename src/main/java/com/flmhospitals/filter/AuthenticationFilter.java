@@ -27,6 +27,9 @@ public class AuthenticationFilter implements GlobalFilter, Ordered {
             "/staff/forgot-password",
             "/staff/verify-otp",
             "/staff/reset-password",
+            "/staff/getDoctorName/",
+            "/staff/getSpecialization/",
+            "/doctorSchedule/",
             "/eureka"
     );
 
